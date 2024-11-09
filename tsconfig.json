@@ -16,7 +16,9 @@
       "resolveJsonModule": true,
       "isolatedModules": true,
       "noEmit": true,
-      "jsx": "react"
+      "jsx": "react",
+      "types": ["@types/jest", "@testing-library/jest-dom"]
+
     },
     "include": ["src", "src/components/Button/Button.stories.tsx"],
     "exclude": ["node_modules", "lib"]

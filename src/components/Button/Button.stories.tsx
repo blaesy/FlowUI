@@ -5,13 +5,15 @@ type Story = StoryObj<typeof Button>;
 
 export const Primary: Story = {
     args: {
-        children: "Primary"
+        variant: "primary",
+        children: 'Click me',
     }
 }
 
 export const Secondary: Story = {
     args: {
-        children: "Secondary"
+        variant: "secondary",
+        children: 'Click me',
     }
 }
 
